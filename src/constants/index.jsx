@@ -42,7 +42,7 @@ export const heroSlides = [
         description:
         "State-of-the-art warehouse facilities with advanced security systems. Complete inventory management and order fulfillment services.",
         primaryBtn: "Explore Services",
-        primaryHref: "#",
+        primaryHref: "/About",
         secondaryBtn: "Contact Us",
         secondaryHref: "/Support",
         bgImage: shippingBg2,
