@@ -10,6 +10,10 @@ const Navbar = () => {
         setMobileDrawerOpen(!mobileDrawerOpen)
     }
 
+    const closeDrawer = () => {
+        setMobileDrawerOpen(false);
+    };
+
     return (
         <nav className='sticky top-0 z-50 py-3 backdrop-blur-lg border-b border-neutral-700/10'>
             <div className="container px-4 mx-auto relative text-sm">
@@ -48,15 +52,15 @@ const Navbar = () => {
                         <ul className='border-t w-full border-gray-300'>
                             {navItems.map((item, index) => (
                                 <li key={index} className='py-4 hover:text-[#dc2626] '>
-                                    <NavLink to={item.href}>{item.label}</NavLink>
+                                    <NavLink to={item.href} onClick={closeDrawer}>{item.label}</NavLink>
                                 </li>
                             ))}
                         </ul>
                         <div className="flex flex-col space-x-6 border-t pt-4 border-gray-300 w-full">
-                            <NavLink to="/Login" className='py-2 hover:text-[#dc2626]'>
+                            <NavLink to="/Login" className='py-2 hover:text-[#dc2626]' onClick={closeDrawer}>
                                 Login
                             </NavLink>
-                            <NavLink href="/SignUp" className='py-3 text-center rounded-md bg-[#dc2626] text-white hover:bg-[#b82222]'>
+                            <NavLink to="/SignUp" className='py-3 text-center rounded-md bg-[#dc2626] text-white hover:bg-[#b82222]' onClick={closeDrawer}>
                                 Sign Up
                             </NavLink>
                         </div>

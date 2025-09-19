@@ -27,20 +27,20 @@ const Footer = () => {
                 <div>
                 <h3 className="font-semibold mb-2">Services</h3>
                 <ul className="text-gray-400 text-sm space-y-1">
-                    <li><a href="/ShipNow" className="hover:text-white text-xs">Ship Now</a></li>
-                    <li><a href="/TrackShipment" className="hover:text-white text-xs">Track Package</a></li>
-                    <li><a href="/GetQuote" className="hover:text-white text-xs">Get Quote</a></li>
-                    <li><a href="/FileClaim" className="hover:text-white text-xs">File a Claim</a></li>
+                    <li><NavLink to="/ShipNow" className="hover:text-white text-xs">Ship Now</NavLink></li>
+                    <li><NavLink to="/TrackShipment" className="hover:text-white text-xs">Track Package</NavLink></li>
+                    <li><NavLink to="/GetQuote" className="hover:text-white text-xs">Get Quote</NavLink></li>
+                    <li><NavLink to="/FileClaim" className="hover:text-white text-xs">File a Claim</NavLink></li>
                 </ul>
                 </div>
 
                 <div>
                 <h3 className="font-semibold mb-2">Support</h3>
                 <ul className="text-gray-400 text-sm space-y-1">
-                    <li><a href="/Support" className="hover:text-white text-xs">Customer Service</a></li>
-                    <li><a href="/About" className="hover:text-white text-xs">About Us</a></li>
-                    <li><a href="/PrivacyPolicy" className="hover:text-white text-xs">Privacy Policy</a></li>
-                    <li><a href="/Terms&Conditions" className="hover:text-white text-xs">Terms & Conditions</a></li>
+                    <li><NavLink to="/Support" className="hover:text-white text-xs">Customer Service</NavLink></li>
+                    <li><NavLink to="/About" className="hover:text-white text-xs">About Us</NavLink></li>
+                    <li><NavLink to="/PrivacyPolicy" className="hover:text-white text-xs">Privacy Policy</NavLink></li>
+                    <li><NavLink to="/Terms&Conditions" className="hover:text-white text-xs">Terms & Conditions</NavLink></li>
                 </ul>
                 </div>
 

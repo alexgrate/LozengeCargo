@@ -38,6 +38,8 @@ import TermsConditions from './components/TermsConditions';
 
 import Footer from './components/Footer'
 
+import ScrollToTop from './components/ScrolToTop';
+
 const Home = () => (
   <div className='max-w-7xl mx-auto'>
     <HeroSection />
@@ -122,6 +124,7 @@ const Terms_Conditions = () => (
 const App = () => {
   return (
     <BrowserRouter>
+    <ScrollToTop />
       <div className='max-w-7xl mx-auto'> 
         <Navbar />
         <Routes>

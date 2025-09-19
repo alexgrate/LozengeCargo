@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
 const GetStarted = () => {
     return (
@@ -11,12 +12,12 @@ const GetStarted = () => {
                     Join thousands of satisfied customers who trust us with their shipping needs every day.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                    <button className="bg-white text-blue-600 font-semibold px-6 py-3 rounded-md shadow cursor-pointer hover:bg-gray-100 hover:scale-x-105 transition">
+                    <NavLink to={'/ShipNow'} className="bg-white text-blue-600 font-semibold px-6 py-3 rounded-md shadow cursor-pointer hover:bg-gray-100 hover:scale-x-105 transition">
                         Get Started
-                    </button>
-                    <button className="border border-white px-6 py-3 rounded-md font-semibold cursor-pointer hover:bg-white hover:scale-x-105 hover:text-blue-600 transition">
+                    </NavLink>
+                    <NavLink to={'/Support'} className="border border-white px-6 py-3 rounded-md font-semibold cursor-pointer hover:bg-white hover:scale-x-105 hover:text-blue-600 transition">
                         Contact Us
-                    </button>
+                    </NavLink>
                 </div>
             </div>
         </section>

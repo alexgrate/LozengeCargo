@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { heroSlides } from "../constants";
+import { NavLink } from "react-router-dom";
 
 const HeroSection = () => {
   const [current, setCurrent] = useState(0)
@@ -49,12 +50,12 @@ const HeroSection = () => {
         </p>
 
         <div className="flex flex-col sm:flex-row lg:flex-row gap-4 sm:justify-start justify-center mt-6 w-full">
-          <a href={heroSlides[current].primaryHref} className='bg-[#dc2626] text-white rounded-md py-3 px-4 transition-all duration-300 transform hover:scale-105 hover:bg-[#b82222]'>
+          <NavLink to={heroSlides[current].primaryHref} className='bg-[#dc2626] text-white rounded-md py-3 px-4 transition-all duration-300 transform hover:scale-105 hover:bg-[#b82222]'>
             {heroSlides[current].primaryBtn}
-          </a>
-          <a href={heroSlides[current].secondaryHref} className='text-white border-2 rounded-md py-3 px-4 transition-all duration-300 transform hover:scale-105 hover:bg-white hover:text-black hover:border-white'>
+          </NavLink>
+          <NavLink to={heroSlides[current].secondaryHref} className='text-white border-2 rounded-md py-3 px-4 transition-all duration-300 transform hover:scale-105 hover:bg-white hover:text-black hover:border-white'>
             {heroSlides[current].secondaryBtn}
-          </a>
+          </NavLink>
         </div>
 
         <div className="bg-black/50 p-4 rounded-lg z-10 mt-6 w-full">
