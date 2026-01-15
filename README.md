@@ -524,7 +524,7 @@ This project is created for educational purposes as part of SEN course requireme
 
 **Developer:** Aigbodion Dominion Eromosele
 **Email:** alexgrate606@gmail.com 
-**GitHub:** [@yourusername](https://github.com/alexgrate)
+**GitHub:** [@alexgrate](https://github.com/alexgrate)
 
 ---
 
