@@ -2,7 +2,7 @@
 
 **Name:** Aigbodion Dominion Eromosele 
 **Matric Number:** 25/17970
-**GitHub Repository:** https://github.com/yourusername/lozenge-cargo  
+**GitHub Repository:** https://github.com/alexgrate/LozengeCargo  
 **Live Demo:** https://lozenge-cargo.vercel.app/
 
 ---
@@ -524,7 +524,7 @@ This project is created for educational purposes as part of SEN course requireme
 
 **Developer:** Aigbodion Dominion Eromosele
 **Email:** alexgrate606@gmail.com 
-**GitHub:** [@yourusername](https://github.com/yourusername)
+**GitHub:** [@yourusername](https://github.com/alexgrate)
 
 ---
 
